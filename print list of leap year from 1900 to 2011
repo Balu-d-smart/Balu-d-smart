@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.io.*;
+class Main {
+void cal(int i)
+{
+    for( i=1900;i<=2011;i++)
+    if((i%4==0 && i%100!=0) || i%400==0)
+    {
+        
+        System.out.println( i );
+     }
+   }
+   
+    public static void main(String[] args) 
+    {int i=1900;
+       Main obj= new Main();
+      obj.cal(i);
+    }
+    }
